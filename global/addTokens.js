@@ -1,4 +1,4 @@
-async function getName() {
+async function getName(anthony_k) {
     const response = await fetch('https://api.blooket.com/api/users/verify-token', {
         method: "GET",
         headers: {
@@ -41,4 +41,4 @@ async function addCurrencies() {
 
 };
 
-addCurrencies();
+addCurrencies(500);
